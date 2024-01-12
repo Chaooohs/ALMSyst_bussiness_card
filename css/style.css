@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+/* #region common */
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page {
+  container-type: inline-size;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.wrap {
+  box-sizing: border-box;
+  padding: 0 16px;
+}
+
+.text_lg {
+  font-size: clamp(24px, 3cqi, 56px);
+  font-weight: 700;
+  line-height: 1.2;
+  color: #00185c;
+}
+
+.text_md {
+  font-size: clamp(18px, 3cqi, 42px);
+  font-weight: 500;
+}
+
+/* #endregion */
+/* #region header */
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #373737;
+}
+
+/* #endregion */
+/* #region about */
+.about {
+  display: flex;
+  box-sizing: border-box;
+  padding: 106px 0;
+}
+.about__left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 65px;
+}
+.about__title {
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0;
+}
+.about__phone {
+  display: flex;
+}
+.about__phone_img {
+  width: 44px;
+  width: clamp(18px, 6cqi, 42px);
+  margin-right: 8px;
+}
+.about__tel {
+  color: #00185c;
+  transition: all 0.1s linear;
+}
+.about__tel:hover {
+  color: #ff6600;
+}
+.about__rigth {
+  width: 50%;
+}
+
+/* #endregion */
+/* #region advert */
+.advert {
+  background-color: #000;
+  box-sizing: border-box;
+  padding: 1px 65px;
+}
+.advert__text {
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+
+/* #endregion */
+/* #region gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 32px;
+  box-sizing: border-box;
+  padding: 106px 0;
+}
+
+/* #endregion */
+/* #region descr */
+/* #endregion */
